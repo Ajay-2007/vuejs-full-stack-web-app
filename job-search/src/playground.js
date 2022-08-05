@@ -30,3 +30,12 @@
 // };
 
 // export const multiply = (num1, num2) => num1 * num2;
+const numbers = [1, 2, 3, 4, 5];
+
+// const squares = numbers.map((number) => {
+//   return number * number;
+// });
+
+const squares = numbers.map((number) => number * number);
+
+console.log(squares);
